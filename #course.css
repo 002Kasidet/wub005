@@ -58,8 +58,9 @@ section, summary, time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;}
+		font-family: "Itim", serif;
+		font-weight: 200;
+		font-style: normal}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -207,22 +208,17 @@ input, select, textarea {
 		font-weight: 600;
 	}
 
-	em, i {
-		font-style: italic;
-	}
-
-	p {
-		text-align: justify;
-		margin: 0 0 2rem 0;
-	}
-
-	h1, h2, h3, h4, h5, h6 {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-weight: 900;
-		line-height: 1.5;
-		letter-spacing: 0.075em;
-		text-transform: uppercase;
-		margin: 0 0 1rem 0;
+	.itim-regular {
+		font-family: "Itim", serif;
+		font-weight: 400;
+		font-style: normal;
+	  }
+	
+	a , h1,h2,h3,h4,h5,h6,p
+	{
+		font-family: "Itim", serif;
+		font-weight: 400;
+		font-style: normal;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -4625,7 +4621,7 @@ input, select, textarea {
 				#navPanel .links li a {
 					border-bottom: 0;
 					display: block;
-					font-family: "Source Sans Pro", Helvetica, sans-serif;
+					font-family: "Itim", serif;
 					font-size: 0.9rem;
 					font-size: 0.9rem;
 					font-weight: 900;
@@ -4656,7 +4652,6 @@ input, select, textarea {
 			right: 0;
 			text-align: right;
 			top: 0;
-			vertical-align: middle;
 			width: 7rem;
 		}
 
